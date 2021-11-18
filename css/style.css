@@ -1,0 +1,58 @@
+body {
+  background: #d024e7;
+  color: #3b3b3b;
+  font-family: Arial, san-serif;
+}
+
+*:focus {
+  outline: none;
+}
+
+.formulario:first-child div {
+  background: #ffffff;
+  width: 90%;
+  margin: 10% auto;
+  text-align: center;
+  padding: 2%;
+}
+
+.formulario:first-child div fieldset div {
+  margin-top: 15px;
+}
+
+.formulario:first-child div input {
+  border: 1px #d419ec solid;
+  border-radius: 5px;
+  padding: 6px;
+  background: rgba(0, 0, 0, 0.1);
+  color: #d419ec;
+  width: 80%;
+}
+
+.formulario:first-child div input:focus {
+  background: white;
+  color: black;
+}
+
+.formulario:first-child div .submit {
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  width: 80%;
+  color: #ffffff;
+  background-color: #d024e7;
+  border: 0px;
+  border-radius: 10px;
+  margin: 10%;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+}
+
+.formulario:first-child div fieldset .submit:hover {
+  color: #2196F3;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,63 @@
+@use 'vars';
+
+body {
+  background: vars.$cor-fundo;
+  color: vars.$cor-letra;
+  font-family: Arial, san-serif;
+}
+  
+*:focus {
+  outline: none;
+}
+
+  
+.formulario:first-child div {
+  background: vars.$cor-primaria;
+  width: vars.$tamanho-form;
+  margin: vars.$margem-form auto;
+  text-align: center;
+  padding: 2%;
+}
+  
+.formulario:first-child div fieldset div {
+  margin-top: 15px;
+  
+}
+  
+.formulario:first-child div input {
+  border: 1px vars.$cor-secundaria solid;
+  border-radius: 5px;
+  padding: 6px;
+  background: rgba(0, 0, 0, 0.1);
+  color: vars.$cor-secundaria;
+  width: vars.$tamanho-input;
+}
+  
+.formulario:first-child div input:focus{
+  background: white;
+  color: black;
+}
+  
+.formulario:first-child div .submit {
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  width: vars.$tamanho-input;
+  color: #ffffff;
+  background-color: vars.$cor-fundo;
+  border: 0px;
+  border-radius: 10px;
+  margin: vars.$margem-form;
+
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+}
+  
+.formulario:first-child div fieldset .submit:hover {
+  color: #2196F3;
+  background-color: #ffffff;
+  cursor:pointer;
+}
+
+  
