@@ -1,5 +1,13 @@
 @use 'vars';
 
+
+@media screen and (min-width: 1000px){
+
+  .formulario:first-child div{
+  
+    width: 50%;
+  }
+
 body {
   background: vars.$cor-fundo;
   color: vars.$cor-letra;
@@ -36,6 +44,8 @@ body {
 .formulario:first-child div input:focus{
   background: white;
   color: black;
+}
+ 
 }
   
 .formulario:first-child div .submit {

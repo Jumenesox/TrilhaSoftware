@@ -4,6 +4,15 @@ body {
   font-family: Arial, san-serif;
 }
 
+@media screen and (min-width: 1000px){
+
+  .formulario:first-child div{
+  
+    width: 50%;
+  }
+ 
+}
+
 *:focus {
   outline: none;
 }
